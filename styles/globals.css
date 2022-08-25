@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bodyclass{
+    max-height: calc(100vh - 64px) !important;
+    height: calc(100vh - 64px) !important
+}
